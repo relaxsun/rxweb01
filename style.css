@@ -1,0 +1,203 @@
+body p {
+  width: 75%;
+  margin: 0 auto;
+  letter-spacing: 1px;
+  line-height: 2rem;
+}
+
+body header {
+  width: 100%;
+  height: 72px;
+  background-color: #333;
+}
+
+body header nav ul {
+  width: 75%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  line-height: 72px;
+}
+
+body header nav ul li a {
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.4rem;
+}
+
+body header nav ul li a:hover {
+  opacity: 0.7;
+}
+
+body .container {
+  width: 100%;
+}
+
+body .container .container-main {
+  width: 75%;
+  margin: 0 auto;
+  height: auto;
+  padding: 100px 0 100px 0;
+}
+
+body .container .container-main h1 {
+  width: 75%;
+  margin: 0 auto;
+  font-size: 2.8rem;
+  border-bottom: 8px solid #3bacad;
+  display: block;
+  padding-bottom: 20px;
+}
+
+body .container .container-main .date {
+  width: 75%;
+  margin: 0 auto;
+  text-align: right;
+  margin-top: 10px;
+}
+
+body .container .container-main .mainvs {
+  width: 75%;
+  margin: 0 auto;
+  margin: 10px auto 30px;
+}
+
+body .container .container-main .mainvs img {
+  max-width: 100%;
+  height: auto;
+}
+
+body .container .container-main .title {
+  width: 30%;
+  height: auto;
+  border: 1px solid #AAAAAA;
+  margin-left: 12.5%;
+  margin-top: 30px;
+}
+
+body .container .container-main .title p {
+  text-align: center;
+  font-size: 1.1rem;
+  padding: 8px 0;
+  color: #333;
+}
+
+body .container .container-main .title ul {
+  margin-bottom: 10px;
+}
+
+body .container .container-main .title ul li {
+  line-height: 1.6rem;
+  margin-left: 10px;
+}
+
+body .container .container-main .title ul li a {
+  color: #3bacad;
+  display: inline-block;
+}
+
+body .container .container-main .title ul li a:hover {
+  color: #333;
+  opacity: 0.8;
+  border-bottom: 1px solid #333;
+}
+
+body .container .container-main .title ul li:nth-child(2) .list, body .container .container-main .title ul li:nth-child(3) .list {
+  font-size: 0.8rem;
+  text-align: left;
+  margin-left: 30px;
+}
+
+body .container .container-main .ballon {
+  width: 75%;
+  margin: 0 auto;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-bottom: 10px;
+  position: relative;
+  padding: 1em;
+  display: block;
+  border: 3px solid #3bacad;
+  border-radius: 0.5em;
+  margin-top: 30px;
+}
+
+body .container .container-main .ballon h2 {
+  font-size: 1.9rem;
+}
+
+body .container .container-main .gym-section {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 75%;
+  line-height: 40px;
+  background-color: #f4f4f4;
+  display: block;
+  margin: 30px auto 10px;
+  padding-left: 20px;
+  font-size: 1.4rem;
+  border-left: 4px solid #3bacad;
+}
+
+body .container .container-main .gym-text {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 75%;
+  line-height: 40px;
+  display: block;
+  margin: 10px auto 0;
+  font-size: 1.2rem;
+}
+
+body .container .container-main table {
+  width: 75%;
+  margin: 10px auto;
+}
+
+body .container .container-main table th {
+  background-color: #3bacad;
+  color: #fff;
+}
+
+body .container .container-main table th, body .container .container-main table td {
+  width: 30%;
+  text-align: center;
+  padding: 10px;
+  border: 1px solid #333;
+}
+
+body .container .container-main .gym-important {
+  color: red;
+  font-weight: 550;
+}
+
+body footer {
+  width: 100%;
+  height: 72px;
+  background-color: #333;
+}
+
+body footer nav ul {
+  width: 75%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  line-height: 72px;
+}
+
+body footer nav ul li a {
+  font-weight: 600;
+  font-size: 1.4rem;
+  color: #fff;
+}
+
+body footer nav ul li a:hover {
+  opacity: 0.7;
+}
+/*# sourceMappingURL=style.css.map */
